@@ -16,22 +16,23 @@ Este repositório apresenta um projeto dividido em **duas partes principais**:
 
 ## 📂 Estrutura do Repositório
 
+
 Projeto_SQL/
-├─ Parte1_Modelagem/
-│ ├─ Conceitual/ # Diagramas ER e explicações
-│ ├─ Logica/ # Modelo lógico (tabelas, relacionamentos)
-│ ├─ Fisica/ # Scripts DDL para criação do banco
-│ └─ README.md # Explicação da modelagem
-│
-├─ Parte2_Analise/
-│ ├─ Dataset/ # Dataset real utilizado
-│ ├─ Limpeza/ # Scripts de preparação dos dados
-│ ├─ Consultas_SQL/ # Queries de análise exploratória
-│ ├─ Insights/ # Relatórios e anotações dos achados
-│ ├─ Dashboards/ # Arquivos de visualização (Power BI / Excel / outro)
-│ └─ README.md # Explicação da análise
-│
-└─ README.md # Este arquivo principal
+├── Parte1_Modelagem/
+│   ├── Conceitual/ # Diagramas ER e explicações
+│   ├── Logica/ # Modelo lógico (tabelas, relacionamentos)
+│   ├── Fisica/ # Scripts DDL para criação do banco
+│   └── README.md # Explicação da modelagem
+├── Parte2_Analise/
+│   ├── Dataset/ # Dataset real utilizado
+│   ├── Limpeza/ # Scripts de preparação dos dados
+│   ├── Consultas_SQL/ # Queries de análise exploratória
+│   ├── Insights/ # Relatórios e anotações dos achados
+│   ├── Dashboards/ # Arquivos de visualização (Power BI / Excel / outro)
+│   └── README.md # Explicação da análise
+└── README.md # Este arquivo principal
+
+
 
 
 ---
