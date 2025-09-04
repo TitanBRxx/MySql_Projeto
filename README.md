@@ -16,7 +16,7 @@ Este repositório apresenta um projeto dividido em **duas partes principais**:
 
 ## 📂 Estrutura do Repositório
 
-
+```
 Projeto_SQL/
 ├── Parte1_Modelagem/
 │   ├── Conceitual/ # Diagramas ER e explicações
@@ -32,12 +32,7 @@ Projeto_SQL/
 │   └── README.md # Explicação da análise
 └── README.md # Este arquivo principal
 
-
-
-
-
-
-
+```
 
 
 
