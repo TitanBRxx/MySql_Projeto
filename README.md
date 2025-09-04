@@ -35,6 +35,16 @@ Projeto_SQL/
 
 
 
+
+
+
+
+
+
+
+
+
+
 ---
 
 ## 🛠️ Ferramentas Utilizadas
