@@ -1,64 +1,80 @@
-Entidades e Atributos
+ENTIDADES E ATRIBUTOS
 __________________________
 
 Cliente:
 
-*id_cliente (PK)
+  *id_cliente (PK)
 
-*nome
+  *nome
 
-*email
+  *email
 
-*telefone
+  *telefone
 
 _________________________
 
 Pedido:
 
-*id_pedido (PK)
+  *id_pedido (PK)
 
-*data_pedido
+  *data_pedido
 
-*valor_total
+  *valor_total
 
 _________________________
 
 ItemPedido:
 
-*id_item (PK)
+  *id_item (PK)
 
-*quantidade
+  *quantidade
 
-*preco_unitario
+  *preco_unitario
 
 _________________________
 
 Produto:
 
-*id_produto (PK)
+  *id_produto (PK)
 
-*nome
+  *nome
 
-*preco
+  *preco
 
-*qtd_estoque
+  *qtd_estoque
 
 _________________________
 
 Categoria:
 
-id_categoria (PK)
+  *id_categoria (PK)
 
-nome_categoria
+  *nome_categoria
 
 _________________________
 
 Pagamento:
 
-id_pagamento (PK)
+  *id_pagamento (PK)
 
-data_pagamento
+  *data_pagamento
 
-valor_pago
+  *valor_pago
 
-metodo_pagamento
+  *metodo_pagamento
+
+_________________________
+
+
+RELACIONAMENTOS E CARDINALIDADES
+
+
+Cliente faz Pedido → 1:N (um cliente pode ter vários pedidos).
+
+Pedido contém ItemPedido → 1:N (um pedido pode ter vários itens).
+
+Produto aparece em ItemPedido → 1:N (um produto pode estar em vários pedidos).
+
+Produto pertence a Categoria → N:1 (uma categoria pode ter vários produtos).
+
+Pedido gera Pagamento → 1:N (um pedido pode ter 1 ou mais pagamentos).
