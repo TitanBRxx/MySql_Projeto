@@ -1,0 +1,64 @@
+Entidades e Atributos
+__________________________
+
+Cliente:
+
+*id_cliente (PK)
+
+*nome
+
+*email
+
+*telefone
+
+_________________________
+
+Pedido:
+
+*id_pedido (PK)
+
+*data_pedido
+
+*valor_total
+
+_________________________
+
+ItemPedido:
+
+*id_item (PK)
+
+*quantidade
+
+*preco_unitario
+
+_________________________
+
+Produto:
+
+*id_produto (PK)
+
+*nome
+
+*preco
+
+*qtd_estoque
+
+_________________________
+
+Categoria:
+
+id_categoria (PK)
+
+nome_categoria
+
+_________________________
+
+Pagamento:
+
+id_pagamento (PK)
+
+data_pagamento
+
+valor_pago
+
+metodo_pagamento
