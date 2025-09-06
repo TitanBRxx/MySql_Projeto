@@ -48,6 +48,8 @@ Nesta etapa foi desenvolvido um banco de dados fictício para exercitar todo o p
 - Modelo lógico (atributos, chaves primárias, relacionamentos).  
 - Modelo físico (script SQL para criação das tabelas).
 - E aplicando as formas normais ao longo do processo
+- EXPLICAÇÃO GERAL: Uma explicação geral e detalhada do processo de modelagem dizendo como otimizei o banco e o porquê de cada escolha está disponível na pasta do link a seguir: https://github.com/TitanBRxx/MySql_Projeto/tree/main/Parte1_Modelagem/Explica%C3%A7%C3%A3o%20Geral%20da%20Modelagem
+
 
 > Objetivo: praticar **design de banco** desde a ideia inicial até a implementação no MySQL.
 
