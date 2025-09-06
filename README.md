@@ -1,8 +1,8 @@
-# Projeto SQL – Modelagem e Análise de Dados
+# Projeto MySQL – Modelagem e Análise de Dados
 
 Este repositório apresenta um projeto dividido em **duas partes principais**:  
 1. **Criação de um banco de dados fictício** (modelagem conceitual, lógica e física).  
-2. **Análise exploratória de um banco de dados real** coletado da internet, com geração de insights e dashboards.  
+2. **Análise exploratória.** utilizando o banco de banco de dados SAKILA, que vem com o MySql, com geração de insights e dashboards.  
 
 ---
 
@@ -24,8 +24,6 @@ Projeto_SQL/
 │   ├── Fisica/ # Scripts DDL para criação do banco
 │   └── README.md # Explicação da modelagem
 ├── Parte2_Analise/
-│   ├── Dataset/ # Dataset real utilizado
-│   ├── Limpeza/ # Scripts de preparação dos dados
 │   ├── Consultas_SQL/ # Queries de análise exploratória
 │   ├── Insights/ # Relatórios e anotações dos achados
 │   ├── Dashboards/ # Arquivos de visualização (Power BI / Excel / outro)
@@ -33,12 +31,6 @@ Projeto_SQL/
 └── README.md # Este arquivo principal
 
 ```
-
-
-
-
-
-
 
 ---
 
@@ -54,14 +46,15 @@ Projeto_SQL/
 Nesta etapa foi desenvolvido um banco de dados fictício para exercitar todo o processo de **modelagem**:
 - Modelo conceitual (diagrama entidade-relacionamento).  
 - Modelo lógico (atributos, chaves primárias, relacionamentos).  
-- Modelo físico (script SQL para criação das tabelas).  
+- Modelo físico (script SQL para criação das tabelas).
+- E aplicando as formas normais ao longo do processo
 
 > Objetivo: praticar **design de banco** desde a ideia inicial até a implementação no MySQL.
 
 ---
 
-## 📈 Parte 2 – Dataset Real e Análise
-Nesta etapa foi utilizado um dataset real obtido da internet.  
+## 📈 Parte 2 – Análise Exploratória e Dashboard
+Nesta etapa foi utilizado um dataset Sakila.  
 Processos realizados:  
 - Limpeza e organização dos dados.  
 - Consultas SQL para análise exploratória.  
@@ -70,13 +63,6 @@ Processos realizados:
 
 ---
 
-## 🚀 Próximos Passos
-- [ ] Finalizar modelagem fictícia e scripts DDL.  
-- [ ] Escolher dataset real para análise.  
-- [ ] Documentar consultas e resultados.  
-- [ ] Construir dashboard final.  
-
----
 
 ## ✍️ Autor
 Projeto desenvolvido por **Caio Henrique**, estudante de **Ciência de Dados** e entusiasta em **SQL e análise de dados**.  
