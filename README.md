@@ -1,4 +1,5 @@
 # Projeto MySQL – Modelagem e Análise de Dados
+##Projeto em andamento, atualmente na finalização da modelagem física.
 
 Este repositório apresenta um projeto dividido em **duas partes principais**:  
 1. **Criação de um banco de dados fictício** (modelagem conceitual, lógica e física).  
